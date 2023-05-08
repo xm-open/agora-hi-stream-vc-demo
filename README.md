@@ -1,5 +1,31 @@
 # agora-hi-stream-vc-demo
 
-运行方式可参考文档
-[插件使用说明.md](http://gitlab.ximalaya.com/ssp/agora-hi-stream-vc/blob/master/doc/%E5%AE%9E%E6%97%B6vc%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3/%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md)
-[插件接口说明.md](http://gitlab.ximalaya.com/ssp/agora-hi-stream-vc/blob/master/doc/%E5%AE%9E%E6%97%B6vc%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3/%E6%8F%92%E4%BB%B6%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E.md)
+## Get started
+
+### Android
+
+Download the latest Android AAR from AgoraMarketPlace release page, then copy the agora-hi-stream-vc-release.aar to android/app/libs directory;
+
+Download the assets from Agora, then copy to assets directory;
+
+Update your agora_app_id(e.g., ccb8b8f5a8cdxxxxxxxx)、 appKey(e.g., 87197b6b711fxxxxxxxx) and appSecret(e.g., c030f28b970xxxxxxxx) in android/app/src/main/res/values/string_configs.xml file.
+
+Run the example
+
+### iOS
+
+Download the iOS latest framework from AgoraMarketPlace release page, then copy the agora-hi-stream-vc-deps.xcframework and agora-hi-stream-vc.xcframework to ios/ExtensionExample directory;
+
+Download the assets from Agora, then copy to Resource directory
+
+Update your appID(e.g., ccb8b8f5a8cdxxxxxxxx) 、token(e.g., 007eJxTYPAXElmycxxxxxxxx)、appkey(e.g., 87197b6b711fxxxxxxxx) and secret(e.g., c030f28b970xxxxxxxx) in ios/ExtensionExample/AppID.m file
+
+Go to ios directory and run pod install
+
+Run the example
+
+### more detail
+
+[插件使用说明.md]()
+
+[插件接口说明.md]()
