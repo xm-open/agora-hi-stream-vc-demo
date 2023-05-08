@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HiStreamVC</string>
+    <string name="enable_extension">enableExtension</string>
+    <string name="disable_extension">disableExtension</string>
+    <string name="init_extension">initExtension</string>
+    <string name="start_vc">startVC</string>
+    <string name="stop_vc">stopVC</string>
+    <string name="chanel_support_char" translatable="false">qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890 !#$%()+-:;&lt;=.>?@[]^_{}|~,&amp;</string>
+    <string name="channel_id">Channel ID</string>
+    <string name="join">加入</string>
+    <string name="leave">离开</string>
+</resources>

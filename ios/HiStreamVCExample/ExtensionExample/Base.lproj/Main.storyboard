@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="An7-XS-1AR">
+                                <rect key="frame" x="154" y="344.33333333333331" width="87" height="34.333333333333314"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="start_vc"/>
+                                <connections>
+                                    <action selector="startVCAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SJt-ZK-ukZ"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter channel name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="54U-oR-SAe" userLabel="channelName">
+                                <rect key="frame" x="48" y="167" width="299" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="DhU-d1-ITW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CkR-yq-zgZ">
+                                <rect key="frame" x="154" y="408.66666666666669" width="87" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="stop_vc"/>
+                                <connections>
+                                    <action selector="stopVCAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JYO-0a-dRc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UgH-TW-P13">
+                                <rect key="frame" x="137" y="227" width="121" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="H9M-1l-fct"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="加入频道"/>
+                                <connections>
+                                    <action selector="joinChannel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nn0-YX-SUY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cui-PA-CEY">
+                                <rect key="frame" x="132" y="314" width="129" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="初始化插件"/>
+                                <connections>
+                                    <action selector="initExtensionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="law-k3-XDY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="An7-XS-1AR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="344.33333333333331" id="4ul-k5-R3H"/>
+                            <constraint firstItem="54U-oR-SAe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="48" id="6K6-Gx-8Yf"/>
+                            <constraint firstItem="An7-XS-1AR" firstAttribute="top" secondItem="cui-PA-CEY" secondAttribute="bottom" constant="20.5" id="BFQ-uX-UIy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="54U-oR-SAe" secondAttribute="trailing" constant="46" id="C0Z-Hk-qPf"/>
+                            <constraint firstItem="UgH-TW-P13" firstAttribute="centerX" secondItem="54U-oR-SAe" secondAttribute="centerX" id="HxA-sI-hrt"/>
+                            <constraint firstItem="54U-oR-SAe" firstAttribute="centerX" secondItem="CkR-yq-zgZ" secondAttribute="centerX" id="PlL-BI-gP5"/>
+                            <constraint firstItem="An7-XS-1AR" firstAttribute="trailing" secondItem="CkR-yq-zgZ" secondAttribute="trailing" id="T6i-cg-7pe"/>
+                            <constraint firstItem="UgH-TW-P13" firstAttribute="top" secondItem="54U-oR-SAe" secondAttribute="bottom" constant="26" id="VIc-uI-KK4"/>
+                            <constraint firstItem="cui-PA-CEY" firstAttribute="top" secondItem="UgH-TW-P13" secondAttribute="bottom" constant="27" id="aSu-Mx-kib"/>
+                            <constraint firstItem="An7-XS-1AR" firstAttribute="centerX" secondItem="UgH-TW-P13" secondAttribute="centerX" id="dVy-xe-t0G"/>
+                            <constraint firstItem="CkR-yq-zgZ" firstAttribute="top" secondItem="An7-XS-1AR" secondAttribute="bottom" constant="30" id="ejW-mF-JS9"/>
+                            <constraint firstItem="An7-XS-1AR" firstAttribute="centerX" secondItem="cui-PA-CEY" secondAttribute="centerX" id="gq4-YW-N3w"/>
+                            <constraint firstItem="54U-oR-SAe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="108" id="uDv-9u-YY0"/>
+                            <constraint firstItem="UgH-TW-P13" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="137" id="xdy-0W-Iak"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="channelName" destination="54U-oR-SAe" id="X5x-s8-qLx"/>
+                        <outlet property="extenInit" destination="cui-PA-CEY" id="HiI-x5-tXo"/>
+                        <outlet property="joinBtn" destination="UgH-TW-P13" id="2z5-SJ-H3H"/>
+                        <outlet property="startVC" destination="An7-XS-1AR" id="EQ5-4l-BCx"/>
+                        <outlet property="stopVC" destination="CkR-yq-zgZ" id="RuA-mg-XAY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="43.511450381679388" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
