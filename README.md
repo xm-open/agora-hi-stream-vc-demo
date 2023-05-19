@@ -26,6 +26,6 @@ Run the example
 
 ### more detail
 
-[插件使用说明.md]()
+[插件使用说明.md](https://docs-preprod.agora.io/cn/extension_customer/quickstart_ximalaya?platform=Android)
 
-[插件接口说明.md]()
+[插件接口说明.md](https://docs-preprod.agora.io/cn/extension_customer/api_ximalaya?platform=Android)
