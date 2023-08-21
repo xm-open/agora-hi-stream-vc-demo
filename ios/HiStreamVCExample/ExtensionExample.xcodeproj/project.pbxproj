@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E29F77B29F1275100409F04 /* stream_vc in Resources */ = {isa = PBXBuildFile; fileRef = 2E29F77A29F1275100409F04 /* stream_vc */; };
+		2E2B248C29B9BE15003E2950 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B248B29B9BE15003E2950 /* AppDelegate.m */; };
+		2E2B248F29B9BE15003E2950 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B248E29B9BE15003E2950 /* SceneDelegate.m */; };
+		2E2B249229B9BE15003E2950 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B249129B9BE15003E2950 /* ViewController.m */; };
+		2E2B249529B9BE15003E2950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E2B249329B9BE15003E2950 /* Main.storyboard */; };
+		2E2B249729B9BE19003E2950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E2B249629B9BE19003E2950 /* Assets.xcassets */; };
+		2E2B249A29B9BE19003E2950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E2B249829B9BE19003E2950 /* LaunchScreen.storyboard */; };
+		2E2B249D29B9BE19003E2950 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B249C29B9BE19003E2950 /* main.m */; };
+		2E2B24A729B9BE1A003E2950 /* ExtensionExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B24A629B9BE1A003E2950 /* ExtensionExampleTests.m */; };
+		2E2B24B129B9BE1A003E2950 /* ExtensionExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B24B029B9BE1A003E2950 /* ExtensionExampleUITests.m */; };
+		2E2B24B329B9BE1A003E2950 /* ExtensionExampleUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B24B229B9BE1A003E2950 /* ExtensionExampleUITestsLaunchTests.m */; };
+		2E2B24C129B9C398003E2950 /* AppID.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B24BF29B9C398003E2950 /* AppID.m */; };
+		2E2B24C429B9C603003E2950 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B24C229B9C603003E2950 /* TableViewCell.m */; };
+		2EA9FD2929DC2B4600D5B56B /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA9FD2829DC2B4600D5B56B /* libc++.tbd */; };
+		2EA9FD2B29DC2B5800D5B56B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA9FD2A29DC2B5800D5B56B /* libz.tbd */; };
+		2ED4AC2A29DEDC7200AFCCF0 /* agora-hi-stream-vc-deps.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ED4AC2829DEDC7200AFCCF0 /* agora-hi-stream-vc-deps.xcframework */; };
+		2ED4AC2B29DEDC7200AFCCF0 /* agora-hi-stream-vc.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ED4AC2929DEDC7200AFCCF0 /* agora-hi-stream-vc.xcframework */; };
+		2EF7C8B629D4126E009B2AB3 /* AgoraAiEchoCancellationExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF7C8B529D4126E009B2AB3 /* AgoraAiEchoCancellationExtension.xcframework */; };
+		2EF7C8C629D41283009B2AB3 /* AgoraAiNoiseSuppressionExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF7C8B729D41282009B2AB3 /* AgoraAiNoiseSuppressionExtension.xcframework */; };
+		2EF7C8C729D41283009B2AB3 /* AgoraVideoQualityAnalyzerExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF7C8B829D41282009B2AB3 /* AgoraVideoQualityAnalyzerExtension.xcframework */; };
+		2EF7C8C829D41283009B2AB3 /* Agorafdkaac.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF7C8B929D41282009B2AB3 /* Agorafdkaac.xcframework */; };
+		2EF7C8C929D41283009B2AB3 /* AgoraAudioBeautyExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF7C8BA29D41282009B2AB3 /* AgoraAudioBeautyExtension.xcframework */; };
+		2EF7C8CA29D41283009B2AB3 /* AgoraRtcKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF7C8BB29D41282009B2AB3 /* AgoraRtcKit.xcframework */; };
+		2EF7C8CB29D41283009B2AB3 /* AgoraVideoSegmentationExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF7C8BC29D41282009B2AB3 /* AgoraVideoSegmentationExtension.xcframework */; };
+		2EF7C8CC29D41283009B2AB3 /* AgoraSpatialAudioExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF7C8BD29D41282009B2AB3 /* AgoraSpatialAudioExtension.xcframework */; };
+		2EF7C8CD29D41283009B2AB3 /* AgoraClearVisionExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF7C8BE29D41282009B2AB3 /* AgoraClearVisionExtension.xcframework */; };
+		2EF7C8CE29D41283009B2AB3 /* AgoraContentInspectExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF7C8BF29D41282009B2AB3 /* AgoraContentInspectExtension.xcframework */; };
+		2EF7C8CF29D41283009B2AB3 /* AgoraReplayKitExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF7C8C029D41282009B2AB3 /* AgoraReplayKitExtension.xcframework */; };
+		2EF7C8D029D41283009B2AB3 /* AgoraDav1d.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF7C8C129D41282009B2AB3 /* AgoraDav1d.xcframework */; };
+		2EF7C8D129D41283009B2AB3 /* Agoraffmpeg.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF7C8C229D41282009B2AB3 /* Agoraffmpeg.xcframework */; };
+		2EF7C8D229D41283009B2AB3 /* AgoraFaceDetectionExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF7C8C329D41282009B2AB3 /* AgoraFaceDetectionExtension.xcframework */; };
+		2EF7C8D329D41283009B2AB3 /* AgoraDrmLoaderExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF7C8C429D41283009B2AB3 /* AgoraDrmLoaderExtension.xcframework */; };
+		2EF7C8D429D41283009B2AB3 /* AgoraSoundTouch.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF7C8C529D41283009B2AB3 /* AgoraSoundTouch.xcframework */; };
+		4DAF196258788B3CE2B6079D /* Pods_ExtensionExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 702663E07C6088734D0A961A /* Pods_ExtensionExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E2B24A329B9BE1A003E2950 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E2B247F29B9BE15003E2950 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E2B248629B9BE15003E2950;
+			remoteInfo = ExtensionExample;
+		};
+		2E2B24AD29B9BE1A003E2950 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E2B247F29B9BE15003E2950 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E2B248629B9BE15003E2950;
+			remoteInfo = ExtensionExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E29F77A29F1275100409F04 /* stream_vc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = stream_vc; path = Resource/stream_vc; sourceTree = SOURCE_ROOT; };
+		2E2B248729B9BE15003E2950 /* ExtensionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExtensionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E2B248A29B9BE15003E2950 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E2B248B29B9BE15003E2950 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E2B248D29B9BE15003E2950 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2E2B248E29B9BE15003E2950 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2E2B249029B9BE15003E2950 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E2B249129B9BE15003E2950 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E2B249429B9BE15003E2950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E2B249629B9BE19003E2950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E2B249929B9BE19003E2950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E2B249B29B9BE19003E2950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E2B249C29B9BE19003E2950 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E2B24A229B9BE1A003E2950 /* ExtensionExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExtensionExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E2B24A629B9BE1A003E2950 /* ExtensionExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionExampleTests.m; sourceTree = "<group>"; };
+		2E2B24AC29B9BE1A003E2950 /* ExtensionExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExtensionExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E2B24B029B9BE1A003E2950 /* ExtensionExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionExampleUITests.m; sourceTree = "<group>"; };
+		2E2B24B229B9BE1A003E2950 /* ExtensionExampleUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionExampleUITestsLaunchTests.m; sourceTree = "<group>"; };
+		2E2B24BF29B9C398003E2950 /* AppID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppID.m; sourceTree = "<group>"; };
+		2E2B24C029B9C398003E2950 /* AppID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppID.h; sourceTree = "<group>"; };
+		2E2B24C229B9C603003E2950 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		2E2B24C329B9C603003E2950 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		2EA9FD2829DC2B4600D5B56B /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		2EA9FD2A29DC2B5800D5B56B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2ED4AC2829DEDC7200AFCCF0 /* agora-hi-stream-vc-deps.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "agora-hi-stream-vc-deps.xcframework"; path = "ExtensionExample/agora-hi-stream-vc-deps.xcframework"; sourceTree = "<group>"; };
+		2ED4AC2929DEDC7200AFCCF0 /* agora-hi-stream-vc.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "agora-hi-stream-vc.xcframework"; path = "ExtensionExample/agora-hi-stream-vc.xcframework"; sourceTree = "<group>"; };
+		2EF7C8B529D4126E009B2AB3 /* AgoraAiEchoCancellationExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraAiEchoCancellationExtension.xcframework; path = Pods/AgoraRtcEngine_iOS/AgoraAiEchoCancellationExtension.xcframework; sourceTree = "<group>"; };
+		2EF7C8B729D41282009B2AB3 /* AgoraAiNoiseSuppressionExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraAiNoiseSuppressionExtension.xcframework; path = Pods/AgoraRtcEngine_iOS/AgoraAiNoiseSuppressionExtension.xcframework; sourceTree = "<group>"; };
+		2EF7C8B829D41282009B2AB3 /* AgoraVideoQualityAnalyzerExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraVideoQualityAnalyzerExtension.xcframework; path = Pods/AgoraRtcEngine_iOS/AgoraVideoQualityAnalyzerExtension.xcframework; sourceTree = "<group>"; };
+		2EF7C8B929D41282009B2AB3 /* Agorafdkaac.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Agorafdkaac.xcframework; path = Pods/AgoraRtcEngine_iOS/Agorafdkaac.xcframework; sourceTree = "<group>"; };
+		2EF7C8BA29D41282009B2AB3 /* AgoraAudioBeautyExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraAudioBeautyExtension.xcframework; path = Pods/AgoraRtcEngine_iOS/AgoraAudioBeautyExtension.xcframework; sourceTree = "<group>"; };
+		2EF7C8BB29D41282009B2AB3 /* AgoraRtcKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraRtcKit.xcframework; path = Pods/AgoraRtcEngine_iOS/AgoraRtcKit.xcframework; sourceTree = "<group>"; };
+		2EF7C8BC29D41282009B2AB3 /* AgoraVideoSegmentationExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraVideoSegmentationExtension.xcframework; path = Pods/AgoraRtcEngine_iOS/AgoraVideoSegmentationExtension.xcframework; sourceTree = "<group>"; };
+		2EF7C8BD29D41282009B2AB3 /* AgoraSpatialAudioExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraSpatialAudioExtension.xcframework; path = Pods/AgoraRtcEngine_iOS/AgoraSpatialAudioExtension.xcframework; sourceTree = "<group>"; };
+		2EF7C8BE29D41282009B2AB3 /* AgoraClearVisionExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraClearVisionExtension.xcframework; path = Pods/AgoraRtcEngine_iOS/AgoraClearVisionExtension.xcframework; sourceTree = "<group>"; };
+		2EF7C8BF29D41282009B2AB3 /* AgoraContentInspectExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraContentInspectExtension.xcframework; path = Pods/AgoraRtcEngine_iOS/AgoraContentInspectExtension.xcframework; sourceTree = "<group>"; };
+		2EF7C8C029D41282009B2AB3 /* AgoraReplayKitExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraReplayKitExtension.xcframework; path = Pods/AgoraRtcEngine_iOS/AgoraReplayKitExtension.xcframework; sourceTree = "<group>"; };
+		2EF7C8C129D41282009B2AB3 /* AgoraDav1d.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraDav1d.xcframework; path = Pods/AgoraRtcEngine_iOS/AgoraDav1d.xcframework; sourceTree = "<group>"; };
+		2EF7C8C229D41282009B2AB3 /* Agoraffmpeg.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Agoraffmpeg.xcframework; path = Pods/AgoraRtcEngine_iOS/Agoraffmpeg.xcframework; sourceTree = "<group>"; };
+		2EF7C8C329D41282009B2AB3 /* AgoraFaceDetectionExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraFaceDetectionExtension.xcframework; path = Pods/AgoraRtcEngine_iOS/AgoraFaceDetectionExtension.xcframework; sourceTree = "<group>"; };
+		2EF7C8C429D41283009B2AB3 /* AgoraDrmLoaderExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraDrmLoaderExtension.xcframework; path = Pods/AgoraRtcEngine_iOS/AgoraDrmLoaderExtension.xcframework; sourceTree = "<group>"; };
+		2EF7C8C529D41283009B2AB3 /* AgoraSoundTouch.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AgoraSoundTouch.xcframework; path = Pods/AgoraRtcEngine_iOS/AgoraSoundTouch.xcframework; sourceTree = "<group>"; };
+		702663E07C6088734D0A961A /* Pods_ExtensionExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExtensionExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A3C91A20309FF01E7EC034 /* Pods-ExtensionExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExtensionExample.debug.xcconfig"; path = "Target Support Files/Pods-ExtensionExample/Pods-ExtensionExample.debug.xcconfig"; sourceTree = "<group>"; };
+		A72AFA9C193DC5B067AA150B /* Pods-ExtensionExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExtensionExample.release.xcconfig"; path = "Target Support Files/Pods-ExtensionExample/Pods-ExtensionExample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E2B248429B9BE15003E2950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED4AC2A29DEDC7200AFCCF0 /* agora-hi-stream-vc-deps.xcframework in Frameworks */,
+				2ED4AC2B29DEDC7200AFCCF0 /* agora-hi-stream-vc.xcframework in Frameworks */,
+				2EF7C8D129D41283009B2AB3 /* Agoraffmpeg.xcframework in Frameworks */,
+				2EA9FD2B29DC2B5800D5B56B /* libz.tbd in Frameworks */,
+				2EA9FD2929DC2B4600D5B56B /* libc++.tbd in Frameworks */,
+				2EF7C8C629D41283009B2AB3 /* AgoraAiNoiseSuppressionExtension.xcframework in Frameworks */,
+				2EF7C8C729D41283009B2AB3 /* AgoraVideoQualityAnalyzerExtension.xcframework in Frameworks */,
+				2EF7C8C829D41283009B2AB3 /* Agorafdkaac.xcframework in Frameworks */,
+				2EF7C8C929D41283009B2AB3 /* AgoraAudioBeautyExtension.xcframework in Frameworks */,
+				2EF7C8CA29D41283009B2AB3 /* AgoraRtcKit.xcframework in Frameworks */,
+				2EF7C8CB29D41283009B2AB3 /* AgoraVideoSegmentationExtension.xcframework in Frameworks */,
+				2EF7C8CC29D41283009B2AB3 /* AgoraSpatialAudioExtension.xcframework in Frameworks */,
+				2EF7C8CD29D41283009B2AB3 /* AgoraClearVisionExtension.xcframework in Frameworks */,
+				2EF7C8CE29D41283009B2AB3 /* AgoraContentInspectExtension.xcframework in Frameworks */,
+				2EF7C8CF29D41283009B2AB3 /* AgoraReplayKitExtension.xcframework in Frameworks */,
+				2EF7C8D029D41283009B2AB3 /* AgoraDav1d.xcframework in Frameworks */,
+				2EF7C8D229D41283009B2AB3 /* AgoraFaceDetectionExtension.xcframework in Frameworks */,
+				2EF7C8D329D41283009B2AB3 /* AgoraDrmLoaderExtension.xcframework in Frameworks */,
+				2EF7C8D429D41283009B2AB3 /* AgoraSoundTouch.xcframework in Frameworks */,
+				2EF7C8B629D4126E009B2AB3 /* AgoraAiEchoCancellationExtension.xcframework in Frameworks */,
+				4DAF196258788B3CE2B6079D /* Pods_ExtensionExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2B249F29B9BE1A003E2950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2B24A929B9BE1A003E2950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E29F77929F1272500409F04 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2E29F77A29F1275100409F04 /* stream_vc */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		2E2B247E29B9BE15003E2950 = {
+			isa = PBXGroup;
+			children = (
+				2E2B248929B9BE15003E2950 /* ExtensionExample */,
+				2E2B24A529B9BE1A003E2950 /* ExtensionExampleTests */,
+				2E2B24AF29B9BE1A003E2950 /* ExtensionExampleUITests */,
+				2E2B248829B9BE15003E2950 /* Products */,
+				5E2608AFD5DEAC9B4C03BCD8 /* Pods */,
+				865CC17AB5A0A1CD9921F834 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E2B248829B9BE15003E2950 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E2B248729B9BE15003E2950 /* ExtensionExample.app */,
+				2E2B24A229B9BE1A003E2950 /* ExtensionExampleTests.xctest */,
+				2E2B24AC29B9BE1A003E2950 /* ExtensionExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E2B248929B9BE15003E2950 /* ExtensionExample */ = {
+			isa = PBXGroup;
+			children = (
+				2E29F77929F1272500409F04 /* Resource */,
+				2E2B24C029B9C398003E2950 /* AppID.h */,
+				2E2B24BF29B9C398003E2950 /* AppID.m */,
+				2E2B24C329B9C603003E2950 /* TableViewCell.h */,
+				2E2B24C229B9C603003E2950 /* TableViewCell.m */,
+				2E2B248A29B9BE15003E2950 /* AppDelegate.h */,
+				2E2B248B29B9BE15003E2950 /* AppDelegate.m */,
+				2E2B248D29B9BE15003E2950 /* SceneDelegate.h */,
+				2E2B248E29B9BE15003E2950 /* SceneDelegate.m */,
+				2E2B249029B9BE15003E2950 /* ViewController.h */,
+				2E2B249129B9BE15003E2950 /* ViewController.m */,
+				2E2B249329B9BE15003E2950 /* Main.storyboard */,
+				2E2B249629B9BE19003E2950 /* Assets.xcassets */,
+				2E2B249829B9BE19003E2950 /* LaunchScreen.storyboard */,
+				2E2B249B29B9BE19003E2950 /* Info.plist */,
+				2E2B249C29B9BE19003E2950 /* main.m */,
+			);
+			path = ExtensionExample;
+			sourceTree = "<group>";
+		};
+		2E2B24A529B9BE1A003E2950 /* ExtensionExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E2B24A629B9BE1A003E2950 /* ExtensionExampleTests.m */,
+			);
+			path = ExtensionExampleTests;
+			sourceTree = "<group>";
+		};
+		2E2B24AF29B9BE1A003E2950 /* ExtensionExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E2B24B029B9BE1A003E2950 /* ExtensionExampleUITests.m */,
+				2E2B24B229B9BE1A003E2950 /* ExtensionExampleUITestsLaunchTests.m */,
+			);
+			path = ExtensionExampleUITests;
+			sourceTree = "<group>";
+		};
+		5E2608AFD5DEAC9B4C03BCD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82A3C91A20309FF01E7EC034 /* Pods-ExtensionExample.debug.xcconfig */,
+				A72AFA9C193DC5B067AA150B /* Pods-ExtensionExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		865CC17AB5A0A1CD9921F834 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2ED4AC2829DEDC7200AFCCF0 /* agora-hi-stream-vc-deps.xcframework */,
+				2ED4AC2929DEDC7200AFCCF0 /* agora-hi-stream-vc.xcframework */,
+				2EA9FD2A29DC2B5800D5B56B /* libz.tbd */,
+				2EA9FD2829DC2B4600D5B56B /* libc++.tbd */,
+				2EF7C8B729D41282009B2AB3 /* AgoraAiNoiseSuppressionExtension.xcframework */,
+				2EF7C8BA29D41282009B2AB3 /* AgoraAudioBeautyExtension.xcframework */,
+				2EF7C8BE29D41282009B2AB3 /* AgoraClearVisionExtension.xcframework */,
+				2EF7C8BF29D41282009B2AB3 /* AgoraContentInspectExtension.xcframework */,
+				2EF7C8C129D41282009B2AB3 /* AgoraDav1d.xcframework */,
+				2EF7C8C429D41283009B2AB3 /* AgoraDrmLoaderExtension.xcframework */,
+				2EF7C8C329D41282009B2AB3 /* AgoraFaceDetectionExtension.xcframework */,
+				2EF7C8B929D41282009B2AB3 /* Agorafdkaac.xcframework */,
+				2EF7C8C229D41282009B2AB3 /* Agoraffmpeg.xcframework */,
+				2EF7C8C029D41282009B2AB3 /* AgoraReplayKitExtension.xcframework */,
+				2EF7C8BB29D41282009B2AB3 /* AgoraRtcKit.xcframework */,
+				2EF7C8C529D41283009B2AB3 /* AgoraSoundTouch.xcframework */,
+				2EF7C8BD29D41282009B2AB3 /* AgoraSpatialAudioExtension.xcframework */,
+				2EF7C8B829D41282009B2AB3 /* AgoraVideoQualityAnalyzerExtension.xcframework */,
+				2EF7C8BC29D41282009B2AB3 /* AgoraVideoSegmentationExtension.xcframework */,
+				2EF7C8B529D4126E009B2AB3 /* AgoraAiEchoCancellationExtension.xcframework */,
+				702663E07C6088734D0A961A /* Pods_ExtensionExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E2B248629B9BE15003E2950 /* ExtensionExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E2B24B629B9BE1A003E2950 /* Build configuration list for PBXNativeTarget "ExtensionExample" */;
+			buildPhases = (
+				7540E4A022A66AEFFFC01E87 /* [CP] Check Pods Manifest.lock */,
+				2E2B248329B9BE15003E2950 /* Sources */,
+				2E2B248429B9BE15003E2950 /* Frameworks */,
+				2E2B248529B9BE15003E2950 /* Resources */,
+				E2B4304D3C0C42DB0D5FDA89 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExtensionExample;
+			productName = ExtensionExample;
+			productReference = 2E2B248729B9BE15003E2950 /* ExtensionExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E2B24A129B9BE1A003E2950 /* ExtensionExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E2B24B929B9BE1A003E2950 /* Build configuration list for PBXNativeTarget "ExtensionExampleTests" */;
+			buildPhases = (
+				2E2B249E29B9BE1A003E2950 /* Sources */,
+				2E2B249F29B9BE1A003E2950 /* Frameworks */,
+				2E2B24A029B9BE1A003E2950 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E2B24A429B9BE1A003E2950 /* PBXTargetDependency */,
+			);
+			name = ExtensionExampleTests;
+			productName = ExtensionExampleTests;
+			productReference = 2E2B24A229B9BE1A003E2950 /* ExtensionExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E2B24AB29B9BE1A003E2950 /* ExtensionExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E2B24BC29B9BE1A003E2950 /* Build configuration list for PBXNativeTarget "ExtensionExampleUITests" */;
+			buildPhases = (
+				2E2B24A829B9BE1A003E2950 /* Sources */,
+				2E2B24A929B9BE1A003E2950 /* Frameworks */,
+				2E2B24AA29B9BE1A003E2950 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E2B24AE29B9BE1A003E2950 /* PBXTargetDependency */,
+			);
+			name = ExtensionExampleUITests;
+			productName = ExtensionExampleUITests;
+			productReference = 2E2B24AC29B9BE1A003E2950 /* ExtensionExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E2B247F29B9BE15003E2950 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					2E2B248629B9BE15003E2950 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					2E2B24A129B9BE1A003E2950 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 2E2B248629B9BE15003E2950;
+					};
+					2E2B24AB29B9BE1A003E2950 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 2E2B248629B9BE15003E2950;
+					};
+				};
+			};
+			buildConfigurationList = 2E2B248229B9BE15003E2950 /* Build configuration list for PBXProject "ExtensionExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E2B247E29B9BE15003E2950;
+			productRefGroup = 2E2B248829B9BE15003E2950 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E2B248629B9BE15003E2950 /* ExtensionExample */,
+				2E2B24A129B9BE1A003E2950 /* ExtensionExampleTests */,
+				2E2B24AB29B9BE1A003E2950 /* ExtensionExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E2B248529B9BE15003E2950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2B249A29B9BE19003E2950 /* LaunchScreen.storyboard in Resources */,
+				2E29F77B29F1275100409F04 /* stream_vc in Resources */,
+				2E2B249729B9BE19003E2950 /* Assets.xcassets in Resources */,
+				2E2B249529B9BE15003E2950 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2B24A029B9BE1A003E2950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2B24AA29B9BE1A003E2950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7540E4A022A66AEFFFC01E87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExtensionExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2B4304D3C0C42DB0D5FDA89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExtensionExample/Pods-ExtensionExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExtensionExample/Pods-ExtensionExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExtensionExample/Pods-ExtensionExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E2B248329B9BE15003E2950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2B249229B9BE15003E2950 /* ViewController.m in Sources */,
+				2E2B24C429B9C603003E2950 /* TableViewCell.m in Sources */,
+				2E2B248C29B9BE15003E2950 /* AppDelegate.m in Sources */,
+				2E2B24C129B9C398003E2950 /* AppID.m in Sources */,
+				2E2B249D29B9BE19003E2950 /* main.m in Sources */,
+				2E2B248F29B9BE15003E2950 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2B249E29B9BE1A003E2950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2B24A729B9BE1A003E2950 /* ExtensionExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2B24A829B9BE1A003E2950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2B24B129B9BE1A003E2950 /* ExtensionExampleUITests.m in Sources */,
+				2E2B24B329B9BE1A003E2950 /* ExtensionExampleUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E2B24A429B9BE1A003E2950 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E2B248629B9BE15003E2950 /* ExtensionExample */;
+			targetProxy = 2E2B24A329B9BE1A003E2950 /* PBXContainerItemProxy */;
+		};
+		2E2B24AE29B9BE1A003E2950 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E2B248629B9BE15003E2950 /* ExtensionExample */;
+			targetProxy = 2E2B24AD29B9BE1A003E2950 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E2B249329B9BE15003E2950 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E2B249429B9BE15003E2950 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E2B249829B9BE19003E2950 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E2B249929B9BE19003E2950 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E2B24B429B9BE1A003E2950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E2B24B529B9BE1A003E2950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E2B24B729B9BE1A003E2950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82A3C91A20309FF01E7EC034 /* Pods-ExtensionExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7J4G8G7VVC;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = ExtensionExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.agora.rte.extension.histreamvc.ExtensionExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E2B24B829B9BE1A003E2950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A72AFA9C193DC5B067AA150B /* Pods-ExtensionExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7J4G8G7VVC;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = ExtensionExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.agora.rte.extension.histreamvc.ExtensionExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2E2B24BA29B9BE1A003E2950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.agora.rte.extension.histreamvc.ExtensionExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExtensionExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExtensionExample";
+			};
+			name = Debug;
+		};
+		2E2B24BB29B9BE1A003E2950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.agora.rte.extension.histreamvc.ExtensionExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExtensionExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExtensionExample";
+			};
+			name = Release;
+		};
+		2E2B24BD29B9BE1A003E2950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.agora.rte.extension.histreamvc.ExtensionExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExtensionExample;
+			};
+			name = Debug;
+		};
+		2E2B24BE29B9BE1A003E2950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.agora.rte.extension.histreamvc.ExtensionExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExtensionExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E2B248229B9BE15003E2950 /* Build configuration list for PBXProject "ExtensionExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2B24B429B9BE1A003E2950 /* Debug */,
+				2E2B24B529B9BE1A003E2950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E2B24B629B9BE1A003E2950 /* Build configuration list for PBXNativeTarget "ExtensionExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2B24B729B9BE1A003E2950 /* Debug */,
+				2E2B24B829B9BE1A003E2950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E2B24B929B9BE1A003E2950 /* Build configuration list for PBXNativeTarget "ExtensionExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2B24BA29B9BE1A003E2950 /* Debug */,
+				2E2B24BB29B9BE1A003E2950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E2B24BC29B9BE1A003E2950 /* Build configuration list for PBXNativeTarget "ExtensionExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2B24BD29B9BE1A003E2950 /* Debug */,
+				2E2B24BE29B9BE1A003E2950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E2B247F29B9BE15003E2950 /* Project object */;
+}
